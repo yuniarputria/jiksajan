@@ -32,6 +32,7 @@ jobs:
           node-version: << parameters.node-version >>
       - run : |
                chmod +x fit-up.sh
+               ./fit-up.sh
 workflows:
   all-test:
     jobs:
